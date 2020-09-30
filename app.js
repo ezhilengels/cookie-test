@@ -2,8 +2,6 @@ const express = require('express')
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
-const request = require('request');
-const fetch = require('node-fetch');
 var axios = require('axios');
 
 const app = express();
